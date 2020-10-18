@@ -1,11 +1,21 @@
 .contacto-rapido{
-    background: #1c8bbe;
-}
-.contacto-rapido{
+    background: #5557DD;
     font-size: 20px;
 }
 .contactos a{
     color: #ffffff;
     margin: 0px 5px;
     text-decoration: none;
+}
+.dimension_imagen{
+    height: 500px;
+    width: 100vh;
+}
+footer{
+    background: #6AB674;
+    height: 300px;
+}
+.legales{
+    height: 100px;
+    background: #5557DD;
 }
