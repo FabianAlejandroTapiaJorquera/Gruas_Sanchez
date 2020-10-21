@@ -1,5 +1,5 @@
 .contacto-rapido{
-    background: #5557DD;
+    background: #34495E;
     font-size: 20px;
 }
 .contactos a{
@@ -11,6 +11,13 @@
     height: 500px;
     width: 100vh;
 }
+.section{}
+    .gruas{}
+        .nuestras-gruas h1{ width: 300px; }
+        .nuestras-gruas h6{ 
+            width: 450px; 
+            color: #99A3A4;
+        }
 footer{
     background: #6AB674;
     height: 300px;
