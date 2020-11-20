@@ -1,0 +1,26 @@
+section{}
+    .vision{
+        height: 200px;
+        margin: auto auto;
+    }
+    .vision h2{
+        text-align: center;
+        margin: 80px auto;
+    }
+    .vision p{
+        text-align: center;
+        margin: 80px auto;
+    }
+    .mision{
+        height: 200px;
+        margin: auto auto;
+    }
+    .mision h2{
+        text-align: center;
+        margin: 80px auto;
+    }
+    .mision p{
+        text-align: center;
+        margin: 80px auto;
+    }
+    
