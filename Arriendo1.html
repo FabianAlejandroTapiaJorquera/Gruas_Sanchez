@@ -10,6 +10,7 @@
 
         <!-- Css -->
         <link rel="stylesheet" href="css/estilos_index.css">
+        <link rel="stylesheet" href="css/arriendo1.css">
         
         <!-- FontAwesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -79,7 +80,7 @@
 
                 <h6>Selecciona la mejor solución para tu negocio</h6>
                 
-                <div class="card-deck">
+                <div class="card-deck mb-3">
                     <div class="card">
                         <img src="imagenes/g1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -102,6 +103,38 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <!-- Formulario de arriendo de grúas -->
+            <div class="container formulario-arriendo mb-3">
+                <form class="my-3">
+                    <div class="form-group">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="tuemail@tudominio.cl">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress">Dirección</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Av. Ocre 2434">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="opcion-grua">Grúa</label>
+                            <select id="opcion-grua" class="form-control">
+                              <option selected>Grúa Horquilla Eléctrica 8FBN20 TOYOTA</option>
+                              <option>Grúas Reach 8FBRE14S TOYOTA</option>
+                              <option>Grúa Horquilla Eléctrica (pasillo angosto) 8FBE20 TOYOTA</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="inputFechaInicio">Desde</label>
+                            <input type="date" class="form-control" id="inputFechaInicio" placeholder="17-07-1996">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="inputFechaFin">Hasta</label>
+                            <input type="date" class="form-control" id="inputFechaFin" placeholder="02-05-1996">
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
 
